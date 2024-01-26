@@ -1,0 +1,82 @@
+.box{
+    user-select: text;
+    margin: 10px;
+    padding: 5px;
+    width: 450px;
+    height: auto;
+    border: 3px solid black;
+    float: left;
+}
+q{
+    quotes: "@" "&";
+}
+.box img{
+
+    width: 450px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.box2{
+    margin: 10px;
+    padding: 5px;
+    width: 450px;
+    height:auto;
+    border: 3px solid black;
+    float: left;
+}
+.box2 img{
+    width: 450px;
+    height: 500px;
+    object-fit: contain;
+}
+.box3{
+    margin: 10px;
+    padding: 5px;
+    width: 480px;
+    height: auto;
+    border: 3px solid black;
+    float: right;
+}
+.box3 img{
+    width: 480px;
+    height: 500px;
+    object-fit: fill;
+}
+span{
+    box-decoration-break: clone;
+    border: 2px solid black;
+    text-align: end;
+    clear: both;
+    background-color: antiquewhite;
+    width: 20px;
+    padding: 2px;
+    font-size: 22px;
+    line-height: 32px;
+}
+.par{
+    clear: both;
+    width: 300px;
+    height: auto;
+    background-color: antiquewhite;
+    color: black;
+    border-image-source: url('http://www.clipartbest.com/cliparts/niB/7x5/niB7x5LiA.png');
+    border-image-width: 20px;
+    padding: 20px;
+    border-image-slice: 10%;
+    box-sizing: border-box;
+    border-image-repeat: repeat;
+    border-image-outset: 15px;
+}
+img[src$="160&W=160"]{
+    width: 300px;
+}
+span:not(.div){
+    font-size: 2em;
+}
+div[lang|="franch"]{
+    color: black;
+    border: 3px solid red
+    ;
+    background-color: antiquewhite;
+}
